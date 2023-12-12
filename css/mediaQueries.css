@@ -1,0 +1,1359 @@
+/*media queries*/
+
+/*-----------For desktop large screens---------*/
+
+@media screen and (max-width:1920px) {
+
+    .logoTitle img {
+        min-width: 300px;
+        left: 41%;
+    }
+
+
+    /* .navigation {
+        left: 10.2%;
+
+    } */
+
+    .slides {
+        width: 500%;
+        height: 100%;
+
+    }
+
+    .readButton {
+        position: relative;
+        font-size: 14px;
+        width: 10%;
+        padding: 10px 30px;
+        margin-top: 30px;
+        margin-left: 46%;
+        cursor: pointer;
+        outline: 2px solid white;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .tagline h1 {
+        font-size: 40px;
+    }
+
+    .tagline h2 {
+        font-size: 25px;
+        left: 52%;
+    }
+
+    .tagline p {
+        font-size: 25px;
+        width: 40%;
+        position: absolute;
+        display: inline-block;
+        left: 51%;
+        margin-top: 10px;
+
+    }
+
+    .highlightCaption {
+        width: 45%;
+        padding-top: 100px;
+        padding-left: 230px;
+    }
+
+    .highlightCaption h1 {
+        font-size: 50px;
+    }
+
+    .highlightCaption h3 {
+        font-size: 30px;
+    }
+
+    .highlightSlideshow {
+        padding: 20px;
+        right: 20px;
+        margin-top: 30px;
+        width: 50%;
+    }
+
+    .highlightSlideshow img {
+        width: 100%;
+        height: 550px;
+    }
+
+    .readButton2 {
+        margin-top: 40px;
+
+    }
+
+    .books img {
+        left: 10%;
+        padding: 15px;
+        margin: 1%;
+        margin-bottom: 30px;
+        background: lightgray;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        position: relative;
+        display: inline-flex;
+    }
+
+    .button3 {
+        left: 10px;
+        margin: 10px 60px 10px 60px;
+    }
+
+    .videos iframe {
+        height: 500px;
+    }
+
+}
+
+/*--------------------For Tablet Device---------------------*/
+
+@media screen and (max-width:768px) {
+
+    nav .mainMenu {
+        max-height: 100%;
+        max-width: 100%;
+        padding-top: 10%;
+        justify-content: space-around;
+        text-align: center;
+        display: inline-block;
+    }
+
+    nav .mainMenu li a {
+        padding-top: 10%;
+        font-size: 16px;
+    }
+
+    nav .mainMenu li a:hover {
+        font-size: 20px;
+    }
+
+    nav .openMenu {
+        left: 85%;
+        top: 20px;
+    }
+
+    .searchBox {
+        left: 13%;
+        z-index: 1;
+    }
+
+    .searchBox:hover > .searchText {
+        width: 90px;
+    }
+
+    .searchBtn {
+        font-size: 15px;
+    }
+
+    .searchText {
+        font-size: 12px;
+    }
+
+    .logoTitle img {
+        min-width: 300px;
+        left: 33%;
+
+    }
+
+    .navigation {
+        bottom: 20px;
+        left: 11%;
+    }
+
+    .bar {
+        width: 40px;
+        height: 8px;
+    }
+
+    .slides {
+        width: 500%;
+        height: 500px;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slides h1 {
+        margin-top: -20%;
+        margin-left: 35px;
+        color: white;
+        font-size: 24px;
+    }
+
+    .readButton {
+        margin-top: 25px;
+        font-size: 12px;
+        width: 20%;
+        padding: 5px 5px;
+    }
+
+    .tagline {
+        height: 20vh;
+        padding: 30px;
+    }
+
+    .tagline h1 {
+        font-size: 25px;
+    }
+
+    .tagline h2 {
+        font-size: 15px;
+        left: 59%;
+    }
+
+    .tagline p {
+        font-size: 15px;
+        left: 55%;
+    }
+
+    .row {
+        padding: 20vh;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        background-color: #f6f6f6;
+        margin: 0;
+    }
+
+    #rowTitle {
+        min-width: 80%;
+        left: 15%;
+    }
+
+    .features {
+        min-width: 100%;
+        display: inline-block;
+    }
+
+
+    .features h3,
+    .features p {
+        min-width: 100%;
+        top: 70%;
+    }
+
+    .highlight {
+        min-width: 100%;
+        height: 100vh;
+    }
+
+    .highlightCaption {
+        width: 100%;
+        padding-left: 30px;
+        padding-top: 70%;
+        display: inline-block;
+    }
+
+    .highlightCaption h1 {
+        width: 80%;
+        font-size: 25px;
+    }
+
+    .highlightCaption h3 {
+        font-size: 20px;
+    }
+
+
+    .highlightSlideshow {
+        right: 50px;
+        padding: 20px;
+        width: 80%
+    }
+
+    .highlightSlideshow img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .readButton2 {
+        width: 20%;
+    }
+
+
+    .mustRead {
+        height: 220vh;
+        padding-top: 80px;
+        background: #e1e1e1;
+        position: relative;
+    }
+
+    #mustReadTitle {
+        width: 50%;
+        display: inline-block;
+        position: relative;
+        left: 25%;
+        text-align: center;
+        padding: 30px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        border-bottom: 5px solid black;
+        color: black;
+    }
+
+    #books img {
+        left: 20%;
+        padding: 15px;
+        margin: 40px;
+        width: 50%;
+        height: 300px;
+        display: inline-block;
+
+    }
+
+    .button3Container {
+        position: absolute;
+        top: 12%;
+        left: -25px;
+        display: block;
+        width: 40%;
+    }
+
+    .button3 {
+        display: block;
+        margin: 110%;
+        width: 50%;
+    }
+
+
+    .films {
+        min-height: 130vh;
+    }
+
+    .videos {
+        margin-top: 10px;
+
+    }
+
+    .videos iframe {
+        padding: 20px;
+        height: 400px;
+        width: 100%;
+    }
+
+    .subscribe {
+        max-width: 45%;
+        left: 10%;
+        margin-top: 60px;
+        position: absolute;
+    }
+
+    .subscribe h2 {
+        max-width: 55%;
+        margin-bottom: 10px;
+        font-size: 20px;
+        display: flex;
+        color: #ffffff;
+        letter-spacing: 1px;
+    }
+
+    .subscribe p {
+        font-size: 15px;
+    }
+
+    .newsletter {
+        top: 798%;
+        left: 50%;
+        width: 30%;
+    }
+
+    .newsletter button {
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+
+    .socialMedia {
+        left: 52%;
+        top: 812%;
+    }
+
+    .socialMedia li {
+        font-size: 15px;
+    }
+
+    .bottomDirectory {
+        width: 60%;
+        left: 25%;
+        top: 820%;
+        padding-top: 5px;
+    }
+
+    .bottomDirectory li {
+        font-size: 10px;
+    }
+
+    .page1 {
+        height: 785vh;
+    }
+
+
+    .page1Title {
+        width: 40%;
+        top: 12%;
+    }
+
+    .page1Title h1 {
+        font-size: 30px;
+    }
+
+    .page1Title p {
+        font-size: 16px;
+    }
+
+    .context {
+        top: 35%;
+        font-size: 16px;
+    }
+
+    .page1ContextPart2 {
+        font-size: 16px;
+        max-width: 80%;
+        display: inline-block;
+        position: absolute;
+        padding: 20px;
+        left: 11%;
+        transform: translateY(5%);
+    }
+
+
+    .page1Row {
+        width: 100%;
+        transform: translateY(64%);
+        position: absolute;
+        left: 0;
+    }
+
+    .page1Row img {
+        width: 100%;
+        height: 600px;
+        margin-top: 25px;
+    }
+
+
+    .page2 {
+        height: 785vh;
+        background-color: #ececec;
+    }
+
+    .page2Image {
+        top: 20%;
+        left: 2%;
+        position: absolute;
+    }
+
+    .page2Column {
+        max-width: 50%;
+        padding: 10px 10px;
+
+    }
+
+    .page2Column img {
+        display: inline-flex;
+        vertical-align: middle;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .page2Title {
+        display: inline-block;
+        width: 50%;
+        top: 3%;
+        left: 50%;
+        position: relative;
+    }
+
+    .page2Title h1 {
+        font-size: 30px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .page2Title p {
+        font-size: 16px;
+    }
+
+    .page2Context {
+        display: inline-flex;
+        position: absolute;
+        top: 75%;
+        left: 52%;
+        max-width: 45%;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .imageContent {
+        top: -250%;
+        left: 5%;
+        position: absolute;
+
+    }
+
+    .imageContent img {
+        width: 89%;
+        height: 550px;
+    }
+
+    .contextPart2 p {
+        padding-left: 40px;
+        left: 5%;
+        top: -135%;
+        width: 90%;
+        font-size: 16px;
+        display: inline-block;
+        position: absolute;
+        text-align: justify;
+    }
+
+    .contextPart3 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 10px;
+        top: 23%;
+        left: 2%;
+        position: relative;
+        margin-right: 25px;
+    }
+
+    .page2column {
+        flex: 30%;
+        max-width: 50%;
+        padding: 10px 10px;
+        display: inline-block;
+        position: relative;
+        height: 600px;
+
+    }
+
+    .contextPart3 h1 {
+        width: 80%;
+        left: 10%;
+        top: 260%;
+        display: inline-block;
+    }
+
+    .contextPart3 p {
+        font-size: 16px;
+        width: 80%;
+        left: 10%;
+        top: 300%;
+    }
+
+    .page3 {
+        height: 785vh;
+        background-color: #ececec;
+    }
+
+    .page3Title {
+        padding-top: 40%;
+        left: 6%;
+        width: 35%;
+        position: relative;
+        text-align: justify;
+    }
+
+    .page3Title h1 {
+        font-size: 40px;
+    }
+
+    .page3Title p {
+        font-size: 16px;
+        padding-top: 10px;
+
+    }
+
+    .page3Image {
+        display: inline-block;
+        position: absolute;
+        float: right;
+        left: 45%;
+        margin: 10px;
+        top: 25%;
+    }
+
+    .page3Image img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .page3Context {
+        display: inline-block;
+        position: relative;
+        left: 10%;
+        max-width: 80%;
+        font-size: 16px;
+        text-align: justify;
+        padding-top: 30%;
+    }
+
+    .page3ContextPart2 {
+        display: inline-flex;
+        left: 5%;
+        top: 245%;
+    }
+
+    .page3column {
+        display: none;
+    }
+
+    .page3ContextPart3 img {
+        padding-top: 90px;
+    }
+
+    .page3ContextPart3 h1 {
+        font-size: 20px;
+
+    }
+
+    .page3ContextPart3 p {
+        font-size: 16px;
+        padding-bottom: 350vh;
+    }
+
+    .page4 {
+        height: 785vh;
+        background-color: #ececec;
+    }
+
+    .page4Title {
+        padding-top: 35%;
+        padding-left: 15px;
+    }
+
+    .page4Title h1 {
+        font-size: 40px;
+
+    }
+
+    .page4Title p {
+        font-size: 16px;
+    }
+
+    .page4Context {
+        width: 80%;
+        position: absolute;
+        display: inline-block;
+        left: 11%;
+        top: 95%;
+        text-align: justify;
+    }
+
+    .page4Image {
+        display: inline-block;
+        position: absolute;
+        left: 45%;
+        top: 25%;
+        margin: 20px;
+    }
+
+    .page4Image img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .page4ContextPart2 {
+        margin-top: 90%;
+    }
+
+    .page4ContextPart2 img {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .page4ContextPart2 p {
+        font-size: 16px;
+        max-width: 60%;
+        ;
+        padding-top: 50px;
+        left: 1%;
+
+    }
+
+    .page4ContextPart3 p {
+        font-size: 16px;
+        max-width: 80%;
+        padding: 5px;
+        padding-top: 40px;
+        width: 45%;
+        left: 4%;
+        position: relative;
+        display: inline-flex;
+        text-align: justify;
+    }
+
+
+    .page5 {
+        height: 785vh;
+    }
+
+    .page5Title h1 {
+        left: 23%;
+    }
+
+    .containerOne {
+        padding-left: 80px;
+        position: absolute;
+        display: inline-block;
+        top: 50%;
+        left: 12%;
+        margin: 40px;
+        width: 80%;
+        height: 400px;
+        align-content: center;
+    }
+
+    .page5Btn {
+        width: 45%;
+        height: 40px;
+        position: absolute;
+        top: 85%;
+        background: #a68e5f;
+        border: none;
+    }
+
+    .page5Btn a {
+        top: 12px;
+        left: 25px;
+        color: white;
+        position: absolute;
+        text-decoration: none;
+        font-size: 10px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .join {
+        margin-top: 50px;
+    }
+
+
+}
+
+/*--------------------For mobile devices---------------------*/
+
+@media screen and (max-width:480px) {
+
+    .logoTitle img {
+        width: 250px;
+        left: 20%;
+
+    }
+
+    .navigation {
+        bottom: 14%;
+        left: 265px;
+    }
+
+    .bar {
+        width: 30px;
+        height: 5px;
+    }
+
+    .slides {
+        height: 350px;
+    }
+
+    .slides h1 {
+        margin-top: -40%;
+        margin-left: 20px;
+        color: white;
+        font-size: 14px;
+        position: relative;
+    }
+
+    .readButton {
+        margin-top: 10%;
+        left: -15px;
+        font-size: 12px;
+        width: 20%;
+        position: relative;
+    }
+
+    .tagline {
+        height: 20vh;
+        padding: 20px;
+    }
+
+    .tagline h1 {
+        font-size: 16px;
+    }
+
+    .tagline h2 {
+        width: 50%;
+        font-size: 12px;
+        left: 59%;
+    }
+
+    .tagline p {
+        width: 50%;
+        font-size: 12px;
+        left: 53%;
+    }
+
+    .row {
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #rowTitle {
+        left: 15%;
+        width: 80%;
+        font-size: 12px;
+
+    }
+
+    .features {
+        width: 80%;
+        margin-left: 20px;
+        display: inline-block;
+    }
+
+    .features h3,
+    .features p {
+        min-width: 100%;
+        height: 70px;
+        margin: 0;
+        padding: 0;
+        top: 70%;
+
+    }
+
+    .highlight {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .highlightCaption {
+        width: 100%;
+        padding-left: 40px;
+        padding-top: 110%;
+        display: inline-block;
+    }
+
+    .highlightCaption h1 {
+        width: 80%;
+        font-size: 22px;
+    }
+
+    .highlightCaption h3 {
+        font-size: 15px;
+    }
+
+
+    .highlightSlideshow {
+        left: 30px;
+        padding: 20px;
+        width: 90%;
+    }
+
+    .highlightSlideshow img {
+        max-width: 120%;
+        max-height: 400px;
+    }
+
+    .readButton2 {
+        width: 30%;
+    }
+
+    .mustRead {
+        height: 220vh;
+        padding-top: 80px;
+        background: #e1e1e1;
+        position: relative;
+    }
+
+    #mustReadTitle {
+        width: 50%;
+        display: inline-block;
+        position: relative;
+        left: 25%;
+        text-align: center;
+        padding: 30px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        border-bottom: 5px solid black;
+        color: black;
+    }
+
+    #books img {
+        left: 16%;
+        padding: 15px;
+        margin: 40px;
+        width: 50%;
+        height: 300px;
+        display: inline-block;
+    }
+
+    .button3Container {
+        position: absolute;
+        top: 20%;
+        left: -15%;
+    }
+
+    .button3 {
+        display: block;
+        margin-bottom: 180%;
+        width: 100%;
+    }
+
+
+    .films {
+        min-height: 130vh;
+    }
+
+    #filmsTitle {
+        width: 30%;
+        left: 40%;
+    }
+
+    .videos {
+        margin-top: 10px;
+
+    }
+
+    .videos iframe {
+        padding: 20px;
+        height: 350px;
+        width: 100%;
+    }
+
+
+    .footer {
+        height: 45vh;
+        background: #726958;
+
+    }
+
+    .newsletter {
+        width: 25%;
+        left: 20%;
+        top: 772%;
+        transform: translateX(100%);
+        position: absolute;
+        color: #ffffff;
+    }
+
+    .socialMedia {
+        left: 45%;
+        top: 784%;
+    }
+
+    .bottomDirectory {
+        width: 90%;
+        text-align: center;
+        left: 5%;
+        top: 790%;
+        padding-left: 28px;
+        display: inline-flex;
+        position: absolute;
+        border-bottom: 1px solid #ffffff;
+        border-top: 1px solid #ffffff;
+    }
+
+    .bottomDirectory a {
+        font-size: 8px;
+    }
+
+    .page1 {
+        height: 755vh;
+    }
+
+    .page1Title {
+        display: inline-block;
+        position: absolute;
+        width: 90%;
+        text-align: center;
+        top: 15%;
+        left: 4%;
+    }
+
+    .page1Title h1 {
+        font-size: 30px;
+    }
+
+    .page1Title p {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .context {
+        display: inline-block;
+        position: absolute;
+        left: 3%;
+        top: 33%;
+        max-width: 100%;
+        padding: 25px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .page1ContextPart2 {
+        display: inline-block;
+        position: absolute;
+        left: 3%;
+        transform: translateY(40%);
+        max-width: 100%;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .columns {
+        display: inline-flex;
+        padding: 10px 4px;
+        padding-left: 20px;
+        transform: translateY(81%);
+    }
+
+    .page1column {
+        flex-wrap: wrap;
+        flex: 25%;
+        max-width: 50%;
+        padding: 10px 10px;
+        margin-top: 10px;
+    }
+
+    .page1column img {
+        margin-top: 30px;
+        vertical-align: middle;
+        width: 100%;
+        margin: 5px;
+        margin-top: 20px;
+    }
+
+    .page1Row {
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        top: 230%;
+    }
+
+    .page1Row img {
+        width: 100%;
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    .page2 {
+        height: 755vh;
+        background-color: #ececec;
+    }
+
+
+    .page2Image {
+        top: 50%;
+        left: 18%;
+        position: absolute;
+    }
+
+    .page2Column {
+        max-width: 100%;
+        padding: 10px 10px;
+
+    }
+
+    .page2Column img {
+        width: 80%;
+        height: 350px;
+    }
+
+    .page2Title {
+        display: inline-block;
+        width: 80%;
+        top: 180px;
+        left: 12%;
+        position: relative;
+        text-align: center;
+    }
+
+    .page2Title h1 {
+        font-size: 20px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .page2Title p {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+
+    .page2Context {
+        display: inline-flex;
+        position: absolute;
+        transform: translateY(70%);
+        left: 4%;
+        padding: 20px;
+        max-width: 100%;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .contextPart2 {
+        height: 600px;
+        width: 100%;
+        transform: translateY(180%);
+        display: inline-flex;
+        position: relative;
+    }
+
+    .imageContent {
+        display: inline-flex;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        transform: translateY(5%);
+    }
+
+    .imageContent img {
+        width: 100%;
+        height: 500px;
+    }
+
+
+    .contextPart2 p {
+        padding-left: 20px;
+        left: 0;
+        width: 100%;
+        font-size: 14px;
+        transform: translateY(10%);
+
+    }
+
+    .contextPart3 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10 4px;
+        top: 37%;
+        left: 2%;
+        position: relative;
+    }
+
+    .page2column {
+        flex: 25%;
+        max-width: 100%;
+        padding: 5px 5px;
+        transform: translateY(25%);
+    }
+
+    .page2column img {
+        vertical-align: middle;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .contextPart3 h1 {
+        transform: translateY(-220%);
+        text-align: justify;
+        height: 200px;
+        width: 100%;
+        left: 2%;
+        margin-top: 20px;
+        font-size: 15px;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+    .contextPart3 p {
+        transform: translateY(-80%);
+        font-size: 14px;
+        width: 100%;
+        left: 2%;
+    }
+
+    .page3 {
+        height: 755vh;
+        background-color: #ececec;
+    }
+
+    .page3Title {
+        padding-top: 50%;
+        left: 6%;
+        width: 36%;
+    }
+
+    .page3Title h1 {
+        font-size: 18px;
+    }
+
+    .page3Title p {
+        font-size: 14px;
+        padding-top: 10px;
+
+    }
+
+    .page3Image img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .page3Context {
+        padding-top: 20%;
+    }
+
+    .page3ContextPart2 {
+        display: inline-flex;
+        left: 5%;
+        top: 245%;
+    }
+
+    .page3ContextPart3 img {
+        padding-top: 60px;
+    }
+
+    .page3ContextPart3 h1 {
+        margin-top: 20px;
+        font-size: 16px;
+
+    }
+
+    .page3ContextPart3 p {
+        font-size: 14px;
+        width: 100%;
+        display: inline-flex;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .page4 {
+        height: 755vh;
+        background-color: #ececec;
+    }
+
+    .page4Title {
+        padding-top: 48%;
+        padding-left: 15px;
+    }
+
+    .page4Title h1 {
+        font-size: 20px;
+
+    }
+
+    .page4Title p {
+        font-size: 14px;
+    }
+
+    .page4Context {
+        width: 80%;
+        position: absolute;
+        display: inline-block;
+        left: 11%;
+        top: 60%;
+        text-align: justify;
+    }
+
+    .page4Image {
+        display: inline-block;
+        position: absolute;
+        left: 45%;
+        top: 25%;
+        margin: 20px;
+    }
+
+    .page4Image img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .page4ContextPart2 {
+        margin-top: 90%;
+    }
+
+    .page4ContextPart2 img {
+        width: 100%;
+        transform: translateY(140%);
+    }
+
+    .page4ContextPart2 h1 {
+        margin-top: 100%;
+    }
+
+    .page4ContextPart2 p {
+        font-size: 14px;
+        max-width: 60%;
+        padding-top: 20px;
+
+    }
+
+    .page4ContextPart3 p {
+        padding-bottom: 205vh;
+    }
+
+
+
+    .page5 {
+        height: 755vh;
+    }
+
+    .page5Title h1 {
+        left: 15%;
+        font-size: 28px;
+    }
+
+
+    .containerOne {
+        padding-left: 80px;
+        top: 50%;
+        left: 1%;
+        width: 80%;
+
+    }
+
+    .aboutUs h1 {
+        width: 75%;
+        font-size: 35px;
+    }
+
+    .aboutUs p {
+        width: 80%;
+    }
+
+    .collaborateBox {
+        margin-top: 80px;
+        width: 90%;
+        height: 300px;
+    }
+
+    .collaborateBox h1 {
+        width: 90%;
+        font-size: 35px;
+    }
+
+    .collaborateBox p {
+        font-size: 18px;
+
+    }
+
+    .page5Btn {
+        width: 65%;
+        top: 130%;
+
+    }
+
+    .page5Btn a {
+        top: 14px;
+        left: 25px;
+        font-size: 10px;
+    }
+
+
+    .join {
+        top: 30%;
+    }
+
+    .join p {
+        top: 30%;
+
+    }
+
+    #contrastBtn {
+        font-size: 20px;
+        top: 70px;
+        left: 90%;
+
+    }
+}

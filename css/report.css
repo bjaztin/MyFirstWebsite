@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Newsreader', serif;
+    background: #ececec;
+}
+
+.report {
+    margin-top: 50px;
+    letter-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.report h1 {
+    font-size: 40px;
+}
+
+.report p {
+    font-size: 18px;
+}
+
+#questions {
+    margin: 50px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+#questions h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 35px;
+}
+
+#questions p {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#appendices {
+    margin: 50px;
+    margin-top: 100px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#appendices h1 {
+    font-size: 30px;
+}
+
+.siteMap h1 {
+    padding: 50px;
+
+}
+
+.wireframesPart1 h1 {
+    padding: 50px;
+    margin-top: 80px;
+}
+
+.wireframesPart1 p {
+    font-size: 20px;
+}
+
+.wireframesPart1 img {
+    margin-top: 30px;
+    width: 80%
+}
+
+.wireframesPart2 p {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.mockUpPart1 h1 {
+    padding: 50px;
+}
+
+.mockUpPart1 p {
+    font-size: 20px;
+}
+
+.mockUpPart1 img {
+    margin-top: 30px;
+    width: 80%
+}
+
+.mockUpPart2 p {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.mockUpPart2 img {
+    width: 30%;
+}
+
+.questionEight li {
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    list-style: none;
+}
+
+.questionEight a {
+    text-decoration: none;
+    color: black;
+}
+
+.questionEight a:hover{
+    color:saddlebrown;
+}
