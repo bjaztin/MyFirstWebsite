@@ -1,4 +1,4 @@
-# MyFirstWebsite
+# My First Website
 
 ### This is the instruction to run the app
 - Clone the repository or download the zip file.
